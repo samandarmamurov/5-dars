@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap');
+
+
 
 
 *{
@@ -30,6 +33,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
 }
 .container{
   width: 100%;
@@ -41,11 +45,42 @@ body{
 
 
 header{
-  height: 100vh ;
+  height: 100vh  ;
   background-image: url('../imgs/big-img-coffe.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 28.5px;
+  padding-bottom: 33px;
+}
+
+.nav-site {
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+.links-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.links {
+  color: #ffff   ;
+  font-size: 20px;
+  line-height: 25px  ;
+  letter-spacing: -0.33px ;
+}
+.links:hover{
+  color: yellow;
+}
+.nav-icons {
+  display: flex;
+  gap: 26px;
 }
 
 
