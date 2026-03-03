@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 
@@ -318,5 +319,86 @@ height: 50px;
 @media (max-width: 600px){
   .future:last-child {
     border-bottom: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.content3 {
+  padding-top: 58px;
+  padding-bottom: 70px;
+  background-color: #fff4d8;
+}
+.box {
+  border-radius: 20px;
+  background-color: white;
+  width: 444px;
+  height: 625px;
+
+  h3 {
+    padding-left: 24px;
+    font-family: "Rubik", sans-serif;
+  }
+
+  p {
+    color: #555555;
+  }
+}
+.box-model {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 110px;
+}
+.box .capuchino {
+  padding: 24px 24px;
+}
+.menu {
+  display: block;
+  text-align: center;
+  font-family: "Lobster", display;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.33px;
+}
+.yellow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.star {
+  padding-top: 9px;
+  padding-left: 24px;
+}
+.text-cofe {
+  padding: 24px 24px 37px 24px;
+}
+.star-sent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 15px 17px;
+  border: 1px solid #f39c11;
+  border-radius: 10px;
+  background: none;
+
+  span {
+    color: #f39c11;
   }
 }
